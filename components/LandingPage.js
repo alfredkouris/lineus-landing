@@ -12,6 +12,42 @@ export default function LandingPage() {
       <div className="mt-8 text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800">
         Coming Soon...
       </div>
+      <form
+        name="subscribe"
+        method="POST"
+        data-netlify="true"
+        onSubmit={handleSubmit}
+      >
+        <div className={`${styles.formContainer}`}>
+          <div className={`${styles.inputGroup}`}>
+            <label htmlFor="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={subscriberName}
+              required
+              placeholder="What is your first name?"
+              className={`${styles.input}`}
+              onChange={(e) => setSubscriberName(e.target.value)}
+            />
+          </div>
+          <div className={`${styles.inputContainer}`}>
+            <label htmlFor="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              value={subscriberEmail}
+              placeholder="On what email can I reach you?"
+              className={`${styles.input}`}
+              onChange={(e) => setSubscriberEmail(e.target.value)}
+            />
+          </div>
+          <SubmitButton text="Subscribe" />
+        </div>
+      </form>
       <FuzzyOverlay />
     </div>
   );
