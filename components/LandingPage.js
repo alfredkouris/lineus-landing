@@ -16,22 +16,19 @@ export default function LandingPage() {
           }
         }}
       />
-      <div className="overflow-hidden">
-        <FuzzyOverlay />
-        <div className="z-10 flex flex-col items-center justify-center h-screen relative overflow-hidden text-gray-100">
-          <h1 className="text-center text-4xl font-black text-neutral-50">
-            LINEUS
-          </h1>
-          <p className="text-center mt-2 text-white">
-            Your AI-Powered Line Learner. Coming soon.
-          </p>
-          {/* <div className="mt-8 text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800">
+      <div className="z-10 flex flex-col items-center justify-center h-screen relative overflow-hidden text-gray-100">
+        <h1 className="text-center text-4xl font-black text-neutral-50">
+          LINEUS
+        </h1>
+        <p className="text-center mt-2 text-white">
+          Your AI-Powered Line Learner. Coming soon.
+        </p>
+        {/* <div className="mt-8 text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800">
           Coming Soon...
         </div> */}
 
-          {/* Include the MailerLiteSignup component here */}
-          <MailerLiteSignup />
-        </div>
+        {/* Include the MailerLiteSignup component here */}
+        <MailerLiteSignup />
       </div>
     </>
   );
