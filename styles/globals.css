@@ -4,14 +4,14 @@
 
 :root {
   /* --background: #0a0a0a; */
-  --background: #4d95cc;
+  --background: rgb(39 39 42);
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     /* --background: #0a0a0a; */
-    --background: #4d95cc;
+    --background: rgb(39 39 42);
     --foreground: #ededed;
   }
 }
