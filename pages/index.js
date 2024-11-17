@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Welcome to LINEUS</title>
+        <title>LINEUS - Coming Soon</title>
       </Head>
       <LandingPage />
     </>

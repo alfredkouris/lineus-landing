@@ -59,7 +59,7 @@ export default function MailerLiteSignup() {
                       aria-label="email"
                       aria-required="true"
                       type="email"
-                      className="form-control w-full px-4 py-2 border focus:outline-none  text-black focus:ring-2 focus:ring-black"
+                      className="form-control w-full px-4 py-2 border focus:outline-none rounded text-black focus:ring-2 focus:ring-black"
                       name="fields[email]"
                       placeholder="Enter your email"
                       autoComplete="email"
@@ -72,7 +72,7 @@ export default function MailerLiteSignup() {
               <div className="ml-form-embedSubmit mt-4">
                 <button
                   type="submit"
-                  className="w-full py-2 text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors bg-neutral-800 hover:bg-black"
+                  className="w-full py-2 text-neutral-20 w-fit px-4 py-2 font-semibold rounded text-neutral-200 transition-colors bg-neutral-800 hover:bg-black"
                 >
                   Join the waitlist
                 </button>
@@ -80,9 +80,9 @@ export default function MailerLiteSignup() {
                   disabled
                   style={{ display: "none" }}
                   type="button"
-                  className="loading w-full py-2 px-4 bg-black text-white font-semibold rounded-lg"
+                  className="loading w-full hidden px-4 bg-green text-white font-semibold rounded-lg"
                 >
-                  <div className="ml-form-embedSubmitLoad"></div>
+                  <div className="ml-form-embedSubmitLoad hidden"></div>
                   <span className="sr-only">Loading...</span>
                 </button>
               </div>
@@ -93,14 +93,11 @@ export default function MailerLiteSignup() {
 
           {/* Success message after form submission */}
           <div
-            className="ml-form-successBody row-success mt-4 p-4 bg-black text-white"
+            className="ml-form-successBody row-success mt-4 p-4 rounded bg-black/[.2] text-white"
             style={{ display: "none" }}
           >
             <div className="ml-form-successContent text-center">
-              <p>
-                Great, you're in. We can't wait to share more of Lineus with
-                you.
-              </p>
+              <p>You're in. We can't wait to share more of Lineus with you.</p>
             </div>
           </div>
         </div>
