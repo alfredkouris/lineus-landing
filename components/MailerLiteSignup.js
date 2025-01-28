@@ -97,7 +97,7 @@ export default function MailerLiteSignup() {
             style={{ display: "none" }}
           >
             <div className="ml-form-successContent text-center">
-              <p>You're in. We can't wait to share more of Lineus with you.</p>
+              <p>You're in. We can't wait to share more of Linus with you.</p>
             </div>
           </div>
         </div>

@@ -62,6 +62,14 @@ export default function LandingPage() {
     };
 
     const handleClick = (e) => {
+      // Check if the click was inside the MailerLite container
+      const mailerLiteContainer = document.getElementById("mlb2-19899947");
+      if (mailerLiteContainer && mailerLiteContainer.contains(e.target)) {
+        // If the click is inside the MailerLite container, stop the event
+        e.stopPropagation();
+        return;
+      }
+
       const now = Date.now();
       console.log(`Now: ${now}, Last Drop Time: ${lastDropTime}`); // Log both times to track the delay
 
