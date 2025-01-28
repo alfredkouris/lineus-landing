@@ -18,7 +18,7 @@ export default function LandingPage() {
       />
       <div className="z-10 flex flex-col items-center justify-center h-screen relative overflow-hidden text-gray-100">
         <h1 className="text-center text-4xl font-black text-neutral-50">
-          LINEUS
+          LINUS: Lines Made Easy
         </h1>
         <p className="text-center mt-2 text-white">
           Your AI-Powered Line Learner. Coming soon.
