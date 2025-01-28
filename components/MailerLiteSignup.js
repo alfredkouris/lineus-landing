@@ -39,7 +39,7 @@ export default function MailerLiteSignup() {
   return (
     <div
       id="mlb2-19899947"
-      className="ml-form-embedContainer mt-2 ml-subscribe-form ml-subscribe-form-19899947 mx-auto p-4 max-w-96 w-full sm:p-6 md:p-8"
+      className="z-10  ml-form-embedContainer mt-2 ml-subscribe-form ml-subscribe-form-19899947 mx-auto p-4 max-w-96 w-full sm:p-6 md:p-8"
     >
       <div className="ml-form-align-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-96">
         <div className="ml-form-embedWrapper embedForm">

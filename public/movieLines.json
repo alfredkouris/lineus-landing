@@ -1,0 +1,82 @@
+[
+  { "line": "You can’t handle the truth.", "character": "Col. Jessep" },
+  { "line": "On Wednesdays we wear pink.", "character": "Regina George" },
+  { "line": "May the Force be with you.", "character": "Obi-Wan Kenobi" },
+  { "line": "Here’s looking at you, kid.", "character": "Rick Blaine" },
+  { "line": "I'll be back.", "character": "The Terminator" },
+  { "line": "Why so serious?", "character": "The Joker" },
+  { "line": "To infinity and beyond!", "character": "Buzz Lightyear" },
+  { "line": "Say hello to my little friend!", "character": "Tony Montana" },
+  { "line": "I see dead people.", "character": "Cole Sear" },
+  { "line": "I’ll have what she’s having.", "character": "Customer" },
+  { "line": "Life is like a box of chocolates.", "character": "Forrest Gump" },
+  { "line": "It’s alive! It’s alive!", "character": "Dr. Frankenstein" },
+  { "line": "You complete me.", "character": "Jerry Maguire" },
+  { "line": "They’re here!", "character": "Carol Anne" },
+  { "line": "We’re gonna need a bigger boat.", "character": "Martin Brody" },
+  { "line": "Houston, we have a problem.", "character": "Jim Lovell" },
+  { "line": "Keep your friends close.", "character": "Michael Corleone" },
+  { "line": "Tomorrow is another day.", "character": "Scarlett O'Hara" },
+  { "line": "You talking to me?", "character": "Travis Bickle" },
+  {
+    "line": "Fasten your seatbelts. It’s bumpy.",
+    "character": "Margo Channing"
+  },
+  { "line": "I feel the need... for speed.", "character": "Maverick" },
+  { "line": "I am your father.", "character": "Darth Vader" },
+  { "line": "Nobody puts Baby in a corner.", "character": "Johnny Castle" },
+  { "line": "You had me at hello.", "character": "Dorothy Boyd" },
+  { "line": "The stuff that dreams are made of.", "character": "Sam Spade" },
+  {
+    "line": "This is the start of a beautiful friendship.",
+    "character": "Rick Blaine"
+  },
+  {
+    "line": "After all, tomorrow is another day!",
+    "character": "Scarlett O'Hara"
+  },
+  { "line": "I coulda been a contender.", "character": "Terry Malloy" },
+  {
+    "line": "Love means never having to say you’re sorry.",
+    "character": "Jennifer Cavalleri"
+  },
+  { "line": "I’ll be right here.", "character": "E.T." },
+  { "line": "Nobody’s perfect.", "character": "Osgood Fielding III" },
+  {
+    "line": "That’s what I do: I drink and I know things.",
+    "character": "Tyrion Lannister"
+  },
+  { "line": "There’s no place like home.", "character": "Dorothy Gale" },
+  { "line": "I wish I knew how to quit you.", "character": "Jack Twist" },
+  { "line": "Just keep swimming.", "character": "Dory" },
+  { "line": "I want to believe.", "character": "Fox Mulder" },
+  {
+    "line": "I'll have a martini, shaken, not stirred.",
+    "character": "James Bond"
+  },
+  {
+    "line": "I love the smell of napalm in the morning.",
+    "character": "Lt. Colonel Kilgore"
+  },
+  {
+    "line": "I am vengeance, I am the night, I am Batman.",
+    "character": "Batman"
+  },
+  { "line": "The name's Bond. James Bond.", "character": "James Bond" },
+  { "line": "I’m the king of the world!", "character": "Jack Dawson" },
+  {
+    "line": "I could've been a contender.",
+    "character": "Terry Malloy"
+  },
+  { "line": "It’s a trap!", "character": "Admiral Ackbar" },
+  {
+    "line": "There are no mistakes, only happy accidents.",
+    "character": "Bob Ross"
+  },
+  {
+    "line": "The Force will be with you. Always.",
+    "character": "Obi-Wan Kenobi"
+  },
+  { "line": "You can’t handle the truth!", "character": "Col. Jessep" },
+  { "line": "I’ll be back.", "character": "The Terminator" }
+]
