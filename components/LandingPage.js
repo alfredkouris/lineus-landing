@@ -42,7 +42,7 @@ export default function LandingPage() {
       container.style.opacity = "0"; // Initial opacity
 
       setTimeout(() => {
-        container.style.opacity = "0.7"; // Fade in after 100ms
+        container.style.opacity = "0.5"; // Fade in after 100ms
       }, 100);
 
       document.body.appendChild(container);
@@ -118,10 +118,10 @@ export default function LandingPage() {
         id="canvas"
         className="animated-background w-screen h-screen bg-gradient-to-r from-blue-500 via-blue-500 to-violet-700 flex flex-col items-center justify-center relative overflow-hidden text-gray-100"
       >
-        <h1 className="z-10 text-center text-4xl font-black text-neutral-50">
+        <h1 className="z-10 text-center text-2xl font-black text-neutral-50  md:text-4xl">
           LINUS: Lines Made Easy
         </h1>
-        <p className=" z-10 text-center mt-2 text-blue-200">
+        <p className=" z-10 text-center mt-2 text-sm md:text-lg text-grey-200">
           Your AI-Powered Line Learner.
         </p>
 
