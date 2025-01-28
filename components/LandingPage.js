@@ -116,7 +116,7 @@ export default function LandingPage() {
       />
       <div
         id="canvas"
-        className=" w-screen h-screen bg-gradient-to-r from-blue-500 via-blue-500 to-indigo-500 flex flex-col items-center justify-center relative overflow-hidden text-gray-100"
+        className="animated-background w-screen h-screen bg-gradient-to-r from-blue-500 via-blue-500 to-violet-700 flex flex-col items-center justify-center relative overflow-hidden text-gray-100"
       >
         <h1 className="z-10 text-center text-4xl font-black text-neutral-50">
           LINUS: Lines Made Easy
